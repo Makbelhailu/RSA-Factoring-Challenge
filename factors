@@ -23,7 +23,7 @@ def fac():
                         print("{}={}*{}".format(num, num // i, i))
                         break
                 if num % i != 0:
-                    print("{}={}".format(num, num))
+                    print("{}={i}*1".format(num, num))
 
 
 fac()
